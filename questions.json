@@ -1,0 +1,112 @@
+[
+    {
+        "questionNo": "Q1",
+        "question": "Simplify:<br><img width='80%' src='./assests/images/1.png'>",
+        "options": [
+            "./optionImg/21.jpg",
+            "./optionImg/22.jpg",
+            "./optionImg/23.jpg",
+            "./optionImg/24.jpg"
+        ],
+        "correct": 2
+    },
+    {
+        "questionNo": "Q2",
+        "question": "Solve :<br><img width='80%' src='./assests/images/2.png'>",
+        "options": [
+            "./optionImg/25.jpg",
+            "./optionImg/26.jpg",
+            "./optionImg/27.jpg",
+            "./optionImg/28.jpg"
+        ],
+        "correct": 0
+    },
+    {
+        "questionNo": "Q3",
+        "question": "Evaluate the expression : <br><img width='80%' src='./assests/images/3.png'>",
+        "options": [
+            "./optionImg/29.jpg",
+            "./optionImg/30.jpg",
+            "./optionImg/31.jpg",
+            "./optionImg/32.jpg"
+        ],
+        "correct": 3
+    },
+    {
+        "questionNo": "Q4",
+        "question": "Evaluate:<br><img width='80%' src='./assests/images/4.png'>",
+        "options": [
+            "./optionImg/33.jpg",
+            "./optionImg/34.jpg",
+            "./optionImg/35.jpg",
+            "./optionImg/36.jpg"
+        ],
+        "correct": 2
+    },
+    {
+        "questionNo": "Q5",
+        "question": "Evaluate the expression : <br><img width='80%' src='./assests/images/5.png'>",
+        "options": [
+            "./optionImg/37.jpg",
+            "./optionImg/38.jpg",
+            "./optionImg/39.jpg",
+            "./optionImg/40.jpg"
+        ],
+        "correct": 1
+    },
+    {
+        "questionNo": "Q6",
+        "question": "Evaluate the expression : <br><img width='80%' src='./assests/images/6.png'>",
+        "options": [
+            "./optionImg/41.jpg",
+            "./optionImg/42.jpg",
+            "./optionImg/43.jpg",
+            "./optionImg/44.jpg"
+        ],
+        "correct": 0
+    },
+    {
+        "questionNo": "Q7",
+        "question": "Evaluate :<br><img width='80%' src='./assests/images/7.png'>",
+        "options": [
+            "./optionImg/45.jpg",
+            "./optionImg/46.jpg",
+            "./optionImg/47.jpg",
+            "./optionImg/48.jpg"
+        ],
+        "correct": 1
+    },
+    {
+        "questionNo": "Q8",
+        "question": "Evaluate :<br><img width='80%' src='./assests/images/8.png'>",
+        "options": [
+           "./optionImg/49.jpg",
+            "./optionImg/50.jpg",
+            "./optionImg/51.jpg",
+            "./optionImg/52.jpg"
+        ],
+        "correct": 1
+    },
+    {
+        "questionNo": "Q9",
+        "question": "Calculate :<br><img width='80%' src='./assests/images/9.png'>",
+        "options": [
+            "./optionImg/53.jpg",
+            "./optionImg/54.jpg",
+            "./optionImg/55.jpg",
+            "./optionImg/56.jpg"
+        ],
+        "correct": 3
+    },
+    {
+        "questionNo": "Q10",
+        "question": "Calculate :<br><img width='80%' src='./assests/images/10.png'>",
+        "options": [
+            "./optionImg/57.jpg",
+            "./optionImg/58.jpg",
+            "./optionImg/59.jpg",
+            "./optionImg/60.jpg"
+        ],
+        "correct": 3
+    }
+]

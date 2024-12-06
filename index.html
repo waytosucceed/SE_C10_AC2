@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Activity 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* Reset and base styles */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      table, th,td{
+  border:1px solid black;
+}
+      body {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.6;
+        background-color: #f0f3f5; /* Light gray */
+        color: #333; /* Dark gray */
+        margin: 0;
+      }
+
+      .container {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #bbe9ff; /* Light blue */
+        /* padding: 20px; */
+      }
+
+      .header{
+  height:5%;
+  width:100%
+}
+
+      .company-logo {
+        height: 100%;
+      }
+
+      .content-container {
+        margin-top: 1rem;
+        width: 100%;
+        max-width: 1250px;
+        background-color: #ffffff; /* White */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        border-radius: 8px; /* Rounded corners */
+
+        img {
+          /* max-width: 100%; */
+          /* width: 45%; */
+          display: block;
+          margin: 1rem auto;
+          border-radius: 8px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+      }
+
+      .lesson-title {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #333; /* Dark gray */
+        margin-bottom: 1rem;
+        text-align: center;
+        text-decoration: underline; /* Underline style */
+      }
+      .button-container {
+  position: fixed; /* Fix the button to the screen */
+  top: 10%; /* Set distance from top */
+  right: 10%; /* Set distance from left */
+  z-index: 100; /* Ensure the button stays above other content */
+}
+      .button {
+        
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 15px;
+        background-color: #4CAF50; /* Green */
+        color: white;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 1.4rem;
+        cursor: pointer;
+        text-align: center;
+      }
+
+      .probing-question {
+        margin-top: 1.5rem;
+        background-color: #f0f8ff; /* Light blue */
+        padding: 10px;
+        border-radius: 8px;
+      }
+
+      .probing-question div {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #444; /* Dark gray */
+        margin-bottom: 5px;
+      }
+
+      .probing-question p {
+        color: #666; /* Medium gray */
+      }
+
+      h2,
+      h3,
+      h4 {
+        color: #333; /* Dark gray */
+        margin-top: 1.5rem;
+        font-weight: bold; /* Bold font for all headings */
+      }
+
+      .learn-about {
+        background-color: palegreen;
+        border-radius: 1rem;
+        text-align: left;
+        margin: 1rem;
+        padding: 1rem 0;
+        li {
+          list-style-position: inside;
+          padding-left: 1rem;
+        }
+      }
+
+      p,
+      li {
+        color: #555; /* Medium gray */
+        font-size: 1.4rem;
+      }
+
+      ol,
+      ul {
+        margin-bottom: 1.5rem;
+        padding-left: 20px;
+      }
+      .button-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px; /* Optional */
+    }
+
+      hr {
+        border: none; /* Remove default border */
+        height: 2px; /* Set the height of the horizontal rule */
+        background-color: palevioletred; /* Color of the rule */
+      }
+      @media (max-width: 768px) {
+        .company-logo {
+          height: 75%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header" style="background-color:white;width:100%; box-shadow:5px 5px 10px rgb(0, 0, 0);  padding-bottom:10px;">
+        <img src="assests/logo/Logo_last.png" width="5%" style="float:left; margin-top:1.5%;" class="img-responsive">
+        <span> <img src="assests/logo/header.png" width="30%" height="80%" class="img-responsive"></span>
+      </div>
+
+      <div class="content-container">
+       
+          <div class="lesson-title">Addition , Subtract, Multiplication and Division of Integers & Fractions : </div>
+
+        
+          <div>
+            <h2>Integers as Fractions :</h2>
+            <p>
+              Integers can be written as fractions by placing them over the denominator 1. 
+              <BR><B>Example 1</B>: 5 = <math><mfrac bevelled="true"><mfrac><msup><mi>5</mi></msup></mfrac><mfrac><msup><mi>1</mi></msup></mfrac></mfrac></math>, -3 = <math><mfrac bevelled="true"><mfrac><msup><mi>-3</mi></msup></mfrac><mfrac><msup><mi>1</mi></msup></mfrac></mfrac></math>
+                <br>This helps in performing operations like <b>addition</b>, <b>subtraction</b>, <b>multiplication</b>, or <b>division of integers</b> with fractions.
+            </p>
+            <h2>Addition , Subtract, Multiplication and Division of Integers & Fractions :</h2>
+            <h2>Addition/Subtraction: </h2>
+            <ol>
+              <li>Write the integer as a fraction (eg : 3 = <math><mfrac bevelled="true"><mfrac><msup><mi>3</mi></msup></mfrac><mfrac><msup><mi>1</mi></msup></mfrac></mfrac></math>)</li>
+              <li>Find the LCD of denominators.</li>
+              <li>Add/Subtract the numerators and keep the denominator.</li>
+            </ol>
+            
+            <p><b>Example:</b> Addition<br>
+               3 +  <math><mfrac bevelled="true"><mfrac><msup><mi>2</mi></msup></mfrac><mfrac><msup><mi>5</mi></msup></mfrac></mfrac></math> =  <math><mfrac bevelled="true"><mfrac><msup><mi>3</mi></msup></mfrac><mfrac><msup><mi>1</mi></msup></mfrac></mfrac></math> +  <math><mfrac bevelled="true"><mfrac><msup><mi>2</mi></msup></mfrac><mfrac><msup><mi>5</mi></msup></mfrac></mfrac></math> =  <math><mfrac bevelled="true"><mfrac><msup><mi>3 × 5</mi></msup></mfrac><mfrac><msup><mi>1 × 5</mi></msup></mfrac></mfrac></math> +  <math><mfrac bevelled="true"><mfrac><msup><mi>2</mi></msup></mfrac><mfrac><msup><mi>5</mi></msup></mfrac></mfrac></math> =  <math><mfrac bevelled="true"><mfrac><msup><mi>15 + 2</mi></msup></mfrac><mfrac><msup><mi>5</mi></msup></mfrac></mfrac></math> =  <math><mfrac bevelled="true"><mfrac><msup><mi>17</mi></msup></mfrac><mfrac><msup><mi>5</mi></msup></mfrac></mfrac></math>
+            </p>
+            
+            <h2>Multiplication: </h2>
+            <p>
+              Multiply numerators and denominators directly. <br>
+              <b>Example: </b> 2 × <math><mfrac bevelled="true"><mfrac><msup><mi>3</mi></msup></mfrac><mfrac><msup><mi>5</mi></msup></mfrac></mfrac></math> = <math><mfrac bevelled="true"><mfrac><msup><mi>2</mi></msup></mfrac><mfrac><msup><mi>1</mi></msup></mfrac></mfrac></math> × <math><mfrac bevelled="true"><mfrac><msup><mi>3</mi></msup></mfrac><mfrac><msup><mi>5</mi></msup></mfrac></mfrac></math> = <math><mfrac bevelled="true"><mfrac><msup><mi>2 × 3</mi></msup></mfrac><mfrac><msup><mi>1 × 5</mi></msup></mfrac></mfrac></math> = <math><mfrac bevelled="true"><mfrac><msup><mi>6</mi></msup></mfrac><mfrac><msup><mi>5</mi></msup></mfrac></mfrac></math>
+            </p>
+            <h2>Division:</h2>
+            <p>
+              Flip the second fraction and multiply. <br>
+              <b>Example: </b> 5 ÷ <math><mfrac bevelled="true"><mfrac><msup><mi>2</mi></msup></mfrac><mfrac><msup><mi>3</mi></msup></mfrac></mfrac></math> = <math><mfrac bevelled="true"><mfrac><msup><mi>5</mi></msup></mfrac><mfrac><msup><mi>1</mi></msup></mfrac></mfrac></math> ÷ <math><mfrac bevelled="true"><mfrac><msup><mi>2</mi></msup></mfrac><mfrac><msup><mi>3</mi></msup></mfrac></mfrac></math> = <math><mfrac bevelled="true"><mfrac><msup><mi>5</mi></msup></mfrac><mfrac><msup><mi>1</mi></msup></mfrac></mfrac></math> × <math><mfrac bevelled="true"><mfrac><msup><mi>3</mi></msup></mfrac><mfrac><msup><mi>2</mi></msup></mfrac></mfrac></math> = <math><mfrac bevelled="true"><mfrac><msup><mi>5 × 3</mi></msup></mfrac><mfrac><msup><mi>1 × 2</mi></msup></mfrac></mfrac></math> = <math><mfrac bevelled="true"><mfrac><msup><mi>15</mi></msup></mfrac><mfrac><msup><mi>2</mi></msup></mfrac></mfrac></math>
+            </p>
+            <h2>Evaluate Numerical Expressions Involving Fractions :</h2>
+            <p>
+              A numerical expression with fractions includes numbers, fractions, and operations such as addition, subtraction, multiplication, and division. To simplify these, we follow a step-by-step process, often guided by the <b>BODMAS</b> rule (Brackets, Orders, Division/Multiplication, Addition/Subtraction).
+              <br><b>Example : Simplify :</b> <math><mfrac bevelled="true"><mfrac><msup><mi>2</mi></msup></mfrac><mfrac><msup><mi>3</mi></msup></mfrac></mfrac></math> + <math><mfrac bevelled="true"><mfrac><msup><mi>5</mi></msup></mfrac><mfrac><msup><mi>6</mi></msup></mfrac></mfrac></math> × <math><mfrac bevelled="true"><mfrac><msup><mi>3</mi></msup></mfrac><mfrac><msup><mi>4</mi></msup></mfrac></mfrac></math>
+              <br><br>
+              <b>Step1 :</b> Solve multiplication first: 
+              <br><math><mfrac bevelled="true"><mfrac><msup><mi>5</mi></msup></mfrac><mfrac><msup><mi>6</mi></msup></mfrac></mfrac></math> × <math><mfrac bevelled="true"><mfrac><msup><mi>3</mi></msup></mfrac><mfrac><msup><mi>4</mi></msup></mfrac></mfrac></math> = <math><mfrac bevelled="true"><mfrac><msup><mi>5 × 3</mi></msup></mfrac><mfrac><msup><mi>6 × 4</mi></msup></mfrac></mfrac></math> = <math><mfrac bevelled="true"><mfrac><msup><mi>15</mi></msup></mfrac><mfrac><msup><mi>24</mi></msup></mfrac></mfrac></math> = <math><mfrac bevelled="true"><mfrac><msup><mi>5</mi></msup></mfrac><mfrac><msup><mi>8</mi></msup></mfrac></mfrac></math>
+              <br><br><b>Step2 :</b> Add <math><mfrac bevelled="true"><mfrac><msup><mi>2</mi></msup></mfrac><mfrac><msup><mi>3</mi></msup></mfrac></mfrac></math> + <math><mfrac bevelled="true"><mfrac><msup><mi>5</mi></msup></mfrac><mfrac><msup><mi>8</mi></msup></mfrac></mfrac></math>
+              <br><br>  LCM of 3 and 8, which is 24.
+              <br><br> <math><mfrac bevelled="true"><mfrac><msup><mi>2</mi></msup></mfrac><mfrac><msup><mi>3</mi></msup></mfrac></mfrac></math> + <math><mfrac bevelled="true"><mfrac><msup><mi>5</mi></msup></mfrac><mfrac><msup><mi>8</mi></msup></mfrac></mfrac></math> = <math><mfrac bevelled="true"><mfrac><msup><mi>2 × 8</mi></msup></mfrac><mfrac><msup><mi>3 × 8</mi></msup></mfrac></mfrac></math> + <math><mfrac bevelled="true"><mfrac><msup><mi>5 × 3</mi></msup></mfrac><mfrac><msup><mi>8 × 3</mi></msup></mfrac></mfrac></math> = <math><mfrac bevelled="true"><mfrac><msup><mi>16</mi></msup></mfrac><mfrac><msup><mi>24</mi></msup></mfrac></mfrac></math> + <math><mfrac bevelled="true"><mfrac><msup><mi>15</mi></msup></mfrac><mfrac><msup><mi>24</mi></msup></mfrac></mfrac></math> =  <math><mfrac bevelled="true"><mfrac><msup><mi>16 + 15</mi></msup></mfrac><mfrac><msup><mi>24</mi></msup></mfrac></mfrac></math> = <math><mfrac bevelled="true"><mfrac><msup><mi>31</mi></msup></mfrac><mfrac><msup><mi>24</mi></msup></mfrac></mfrac></math>
+            </p>
+            <h3>Tips for Simplifying</h3>
+            <ol>
+              <li>Always reduce fractions to their lowest form when possible.</li>
+              <li>Be careful with signs (positive and negative fractions).</li>
+              <li>Follow the <b>BODMAS/PEMDAS</b> rule step by step to avoid errors.</li>
+            </ol>
+
+        
+        
+      </div>
+      <div class="button-container">
+        <a href="question.html" class="button">To Practice<br>Click Next</a>
+    </div>
+    </div>
+  </body>
+</html>
